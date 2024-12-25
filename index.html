@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Workspace Creation Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  
+</script>
+<body>
+  <div class="container">
+    <div class="title"><img width="25" height="25" src="https://img.icons8.com/doodle/50/google-forms.png" alt="google-forms"/>
+    Workspace Creation
+    </div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name of Your Workspace</span>
+            <input type="text" placeholder="Enter your Workspce Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Name of Root</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Root Email</span>
+            <input type="text" placeholder="Enter Email Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Your Website</span>
+            <input type="text" placeholder="Enter Website Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Your Industry</span>
+            <select required>
+              <option value="" disabled selected>Select your industry</option>
+              <option value="technology">Technology</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="education">Education</option>
+              <option value="finance">Finance</option>
+              <option value="retail">Retail</option>
+              <option value="manufacturing">Manufacturing</option>
+              <option value="other">Other</option>
+            </select>
+          </div>          
+          <div class="input-box">
+            <span class="details">What do you want to use TeleCRM for?</span>
+            <input type="text" placeholder="Enter Your Need" required>
+          </div>
+          <!-- <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required>
+          </div> -->
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <input type="radio" name="gender" id="dot-4">
+          <span class="gender-title">Team Size</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">2 - 5</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">6 - 10</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">11 -20</span>
+            </label>
+            <label for="dot-4">
+              <span class="dot four"></span>
+              <span class="gender">20+</span>
+            </label>
+          </div>
+        </div>
+        <div class="integration-details">
+          <span class="integration-title">Integrations</span>
+          <div class="category">
+            <label>
+              <input type="checkbox" name="integration" id="integration-1">
+              <span class="integration">Slack</span>
+            </label>
+            <label>
+              <input type="checkbox" name="integration" id="integration-2">
+              <span class="integration">Zapier</span>
+            </label>
+            <label>
+              <input type="checkbox" name="integration" id="integration-3">
+              <span class="integration">Google Drive</span>
+            </label>
+            <label>
+              <input type="checkbox" name="integration" id="integration-4">
+              <span class="integration">Microsoft Teams</span>
+            </label>
+          </div>
+        </div>
+        <div class="hear-about-us">
+          <span class="hear-title">How did you hear about us?</span>
+          <div class="category">
+            <label>
+              <input type="checkbox" name="hear" id="hear-facebook">
+              <span class="option">Facebook</span>
+            </label>
+            <label>
+              <input type="checkbox" name="hear" id="hear-instagram">
+              <span class="option">Instagram</span>
+            </label>
+            <label>
+              <input type="checkbox" name="hear" id="hear-google">
+              <span class="option">Google</span>
+            </label>
+            <label>
+              <input type="checkbox" name="hear" id="hear-linkedin">
+              <span class="option">LinkedIn</span>
+            </label>
+            <label>
+              <input type="checkbox" name="hear" id="hear-other">
+              <span class="option">Other</span>
+            </label>
+          </div>
+        </div>        
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
